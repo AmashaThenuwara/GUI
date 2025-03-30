@@ -1,0 +1,54 @@
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\Pharmacy Management System Coursework.exe.config
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\Pharmacy Management System Coursework.exe
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\Pharmacy Management System Coursework.pdb
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\MainWindow.g.cs
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\App.g.cs
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework_MarkupCompile.cache
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework_MarkupCompile.lref
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\MainWindow.baml
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework.g.resources
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy_Management_System_Coursework.Properties.Resources.resources
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework.exe
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework.pdb
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Dashboard.g.cs
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Dashboard.baml
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Employees.g.cs
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Medicines.g.cs
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Patients.g.cs
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Prescription.g.cs
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Suppliers.g.cs
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Employees.baml
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Medicines.baml
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Patients.baml
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Prescription.baml
+C:\Users\user\source\repos\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Suppliers.baml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\Pharmacy Management System Coursework.exe.config
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\Pharmacy Management System Coursework.exe
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\Pharmacy Management System Coursework.pdb
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Dashboard.g.cs
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Employees.g.cs
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Medicines.g.cs
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Patients.g.cs
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Prescription.g.cs
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Suppliers.g.cs
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\App.g.cs
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework_MarkupCompile.cache
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework_MarkupCompile.lref
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Dashboard.baml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Employees.baml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Medicines.baml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Patients.baml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Prescription.baml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Suppliers.baml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework.g.resources
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy_Management_System_Coursework.Properties.Resources.resources
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework.exe
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework.pdb
