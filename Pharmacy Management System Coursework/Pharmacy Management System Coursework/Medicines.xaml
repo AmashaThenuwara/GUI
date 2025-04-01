@@ -5,14 +5,79 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pharmacy_Management_System_Coursework"
         mc:Ignorable="d"
-        Title="Medicines" Height="800" Width="1300">
+        Title="Medicines" Height="800" Width="1300" Loaded="Window_Loaded">
     <Window.Background>
         <ImageBrush Stretch="Uniform"/>
     </Window.Background>
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="800*"/>
+            <ColumnDefinition Width="500*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
-            <ImageBrush Stretch="Fill" ImageSource="/wengang-zhai-BFB7ydn1-DI-unsplash.jpg"/>
+            <ImageBrush Stretch="Fill" ImageSource="/EE.jpg"/>
         </Grid.Background>
+        <DataGrid x:Name="MedicinesDataGrid" Grid.Column="1" AutoGenerateColumns="False" Margin="25,25,25,25" GridLinesVisibility="Horizontal" BorderBrush="White" Foreground="Maroon" Background="#FFB5CFCA">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Medicine ID" Binding="{Binding MedicineID}" Width="90*" />
+                <DataGridTextColumn Header="Medicine Name" Binding="{Binding MedicineName}" Width="110*" />
+                <DataGridTextColumn Header="Supplier ID" Binding="{Binding SupplierID}" Width="80*" />
+                <DataGridTextColumn Header="Expiry Date" Binding="{Binding ExpiryDate}" Width="90*" />
+                <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="70*" />
+                <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="60*" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <GroupBox x:Name="Btn17" HorizontalAlignment="Center" Height="113" Header="" Margin="0,642,0,0" VerticalAlignment="Top" Width="680">
+            <Grid Width="650" Height="90">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="162.5*"/>
+                    <ColumnDefinition Width="162.5*"/>
+                    <ColumnDefinition Width="162.5*"/>
+                    <ColumnDefinition Width="162.5*"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="Btn18" Content="ADD" HorizontalAlignment="Center" Height="60" VerticalAlignment="Center" Width="125" Click="Btn18_Click"/>
+                <Button x:Name="Btn21" Content="BACK" HorizontalAlignment="Center" Height="60" VerticalAlignment="Center" Width="125" Grid.Column="3" Click="Btn21_Click"/>
+                <Button x:Name="Btn20" Content="DELETE" HorizontalAlignment="Center" Height="60" VerticalAlignment="Center" Width="125" Grid.Column="2" Click="Btn20_Click"/>
+                <Button x:Name="Btn19" Content="UPDATE" HorizontalAlignment="Center" Height="60" VerticalAlignment="Center" Width="126" Grid.Column="1" Click="Btn19_Click"/>
+            </Grid>
+        </GroupBox>
+        <Label HorizontalAlignment="Center" Height="57" VerticalAlignment="Top" Width="336" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Castellar" FontWeight="Bold" Foreground="#FF7C0000" Margin="0,10,0,0" Content="MEDICINES"/>
+        <GroupBox HorizontalAlignment="Center" Height="108" Header="" Margin="0,67,0,0" VerticalAlignment="Top" Width="680">
+            <Grid>
+                <Label Content="Medicine ID :" HorizontalAlignment="Left" Height="35" Margin="10,0,0,0" VerticalAlignment="Top" Width="451" FontSize="20" VerticalContentAlignment="Center"/>
+                <TextBox x:Name="TxtMedID" HorizontalAlignment="Left" Height="42" Margin="10,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="629" VerticalContentAlignment="Center" FontSize="18"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox HorizontalAlignment="Center" Height="108" Header="" Margin="0,283,0,0" VerticalAlignment="Top" Width="680">
+            <Grid>
+                <Label Content="Expiry Date :" HorizontalAlignment="Left" Height="35" Margin="10,0,0,0" VerticalAlignment="Top" Width="451" FontSize="20" VerticalContentAlignment="Center"/>
+                <TextBox x:Name="TxtMedEDate" HorizontalAlignment="Left" Height="42" Margin="10,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="629" VerticalContentAlignment="Center" FontSize="18"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox HorizontalAlignment="Center" Height="108" Header="" Margin="0,175,0,0" VerticalAlignment="Top" Width="680">
+            <Grid>
+                <Label Content="Medicine Name :" HorizontalAlignment="Left" Height="35" Margin="10,0,0,0" VerticalAlignment="Top" Width="451" FontSize="20" VerticalContentAlignment="Center"/>
+                <TextBox x:Name="TxtMedName" HorizontalAlignment="Left" Height="42" Margin="10,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="629" VerticalContentAlignment="Center" FontSize="18"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox HorizontalAlignment="Center" Height="108" Header="" Margin="0,499,0,0" VerticalAlignment="Top" Width="680">
+            <Grid>
+                <Label Content="Supplier ID :" HorizontalAlignment="Left" Height="35" Margin="10,0,0,0" VerticalAlignment="Top" Width="451" FontSize="20" VerticalContentAlignment="Center"/>
+                <TextBox x:Name="TxtSupID" HorizontalAlignment="Left" Height="42" Margin="10,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="629" VerticalContentAlignment="Center" FontSize="18"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox HorizontalAlignment="Center" Height="108" Header="" Margin="0,392,0,0" VerticalAlignment="Top" Width="680">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="334*"/>
+                    <ColumnDefinition Width="334*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Quantity :" HorizontalAlignment="Left" Height="35" Margin="10,0,0,0" VerticalAlignment="Top" Width="161" FontSize="20" VerticalContentAlignment="Center"/>
+                <TextBox x:Name="TxtMedQuantity" HorizontalAlignment="Left" Height="42" Margin="10,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="288" VerticalContentAlignment="Center" FontSize="18"/>
+                <Label Content="Price :" HorizontalAlignment="Left" Height="35" Margin="10,0,0,0" VerticalAlignment="Top" Width="161" FontSize="20" VerticalContentAlignment="Center" Grid.Column="1"/>
+                <TextBox x:Name="TxtMedPrice" HorizontalAlignment="Left" Height="42" Margin="10,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="288" VerticalContentAlignment="Center" FontSize="18" Grid.Column="1"/>
+            </Grid>
+        </GroupBox>
 
     </Grid>
 </Window>

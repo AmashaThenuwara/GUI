@@ -5,14 +5,65 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pharmacy_Management_System_Coursework"
         mc:Ignorable="d"
-        Title="Suppliers" Height="800" Width="1300">
+        Title="Suppliers" Height="800" Width="1300" Loaded="Window_Loaded">
     <Window.Background>
         <ImageBrush Stretch="Uniform"/>
     </Window.Background>
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="800*"/>
+            <ColumnDefinition Width="500*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
-            <ImageBrush Stretch="Fill" ImageSource="/wengang-zhai-BFB7ydn1-DI-unsplash.jpg"/>
+            <ImageBrush Stretch="Fill" ImageSource="/EE.jpg"/>
         </Grid.Background>
+        <DataGrid x:Name="SuppliersDataGrid" Grid.Column="1" AutoGenerateColumns="False" Margin="25,25,25,25" GridLinesVisibility="Horizontal" BorderBrush="White" Foreground="Maroon" Background="#FFB5CFCA">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Suppliers ID" Binding="{Binding SupplierID}" Width="105*" />
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="105*" />
+                <DataGridTextColumn Header="Contact Number" Binding="{Binding ContactNumber}" Width="155*" />
+                <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="135*" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <GroupBox x:Name="Btn1" HorizontalAlignment="Center" Height="113" Header="" Margin="0,642,0,0" VerticalAlignment="Top" Width="680">
+            <Grid Width="650" Height="90">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="162.5*"/>
+                    <ColumnDefinition Width="162.5*"/>
+                    <ColumnDefinition Width="162.5*"/>
+                    <ColumnDefinition Width="162.5*"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="Btn14" Content="ADD" HorizontalAlignment="Center" Height="60" VerticalAlignment="Center" Width="125" Click="Btn14_Click"/>
+                <Button x:Name="Btn17" Content="BACK" HorizontalAlignment="Center" Height="60" VerticalAlignment="Center" Width="125" Grid.Column="3" Click="Btn17_Click"/>
+                <Button x:Name="Btn16" Content="DELETE" HorizontalAlignment="Center" Height="60" VerticalAlignment="Center" Width="125" Grid.Column="2" Click="Btn16_Click"/>
+                <Button x:Name="Btn15" Content="UPDATE" HorizontalAlignment="Center" Height="60" VerticalAlignment="Center" Width="126" Grid.Column="1" Click="Btn15_Click"/>
+            </Grid>
+        </GroupBox>
+        <Label HorizontalAlignment="Center" Height="57" VerticalAlignment="Top" Width="336" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Castellar" FontWeight="Bold" Foreground="#FF7C0000" Margin="0,10,0,0" Content="SUPPLIERS"/>
+        <GroupBox HorizontalAlignment="Center" Height="108" Header="" Margin="0,67,0,0" VerticalAlignment="Top" Width="680">
+            <Grid>
+                <Label Content="Supplier ID :" HorizontalAlignment="Left" Height="35" Margin="10,0,0,0" VerticalAlignment="Top" Width="451" FontSize="20" VerticalContentAlignment="Center"/>
+                <TextBox x:Name="TxtSupID" HorizontalAlignment="Left" Height="42" Margin="10,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="629" VerticalContentAlignment="Center" FontSize="18"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox HorizontalAlignment="Center" Height="108" Header="" Margin="0,391,0,0" VerticalAlignment="Top" Width="680">
+            <Grid>
+                <Label Content="Address :" HorizontalAlignment="Left" Height="35" Margin="10,0,0,0" VerticalAlignment="Top" Width="451" FontSize="20" VerticalContentAlignment="Center"/>
+                <TextBox x:Name="TxtSupAddress" HorizontalAlignment="Left" Height="42" Margin="10,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="629" VerticalContentAlignment="Center" FontSize="18"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox HorizontalAlignment="Center" Height="108" Header="" Margin="0,283,0,0" VerticalAlignment="Top" Width="680">
+            <Grid>
+                <Label Content="Contact Number :" HorizontalAlignment="Left" Height="35" Margin="10,0,0,0" VerticalAlignment="Top" Width="451" FontSize="20" VerticalContentAlignment="Center"/>
+                <TextBox x:Name="TxtSupCNumber" HorizontalAlignment="Left" Height="42" Margin="10,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="629" VerticalContentAlignment="Center" FontSize="18"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox HorizontalAlignment="Center" Height="108" Header="" Margin="0,175,0,0" VerticalAlignment="Top" Width="680">
+            <Grid>
+                <Label Content="Name :" HorizontalAlignment="Left" Height="35" Margin="10,0,0,0" VerticalAlignment="Top" Width="451" FontSize="20" VerticalContentAlignment="Center"/>
+                <TextBox x:Name="TxtSupName" HorizontalAlignment="Left" Height="42" Margin="10,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="629" VerticalContentAlignment="Center" FontSize="18"/>
+            </Grid>
+        </GroupBox>
 
     </Grid>
 </Window>

@@ -52,3 +52,36 @@ C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management 
 C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework.exe
 C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy Management System Coursework.pdb
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\MySql.Data.dll
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\System.IO.Pipelines.dll
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\ZstdSharp.dll
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\Google.Protobuf.pdb
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\MySql.Data.xml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\System.Buffers.xml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\System.IO.Pipelines.xml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\Pharmacy Management System Coursework\Pharmacy Management System Coursework\obj\Debug\Pharmacy.4CB65224.Up2Date
