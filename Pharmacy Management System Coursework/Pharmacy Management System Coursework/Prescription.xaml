@@ -35,7 +35,7 @@
                     <ColumnDefinition Width="162.5*"/>
                     <ColumnDefinition Width="162.5*"/>
                 </Grid.ColumnDefinitions>
-                <Button x:Name="Btn22" Content="ADD" HorizontalAlignment="Center" Height="60" VerticalAlignment="Center" Width="125" Click="Btn22_Click"/>
+                <Button x:Name="Btn22" Content="ADD" HorizontalAlignment="Center" Height="60" VerticalAlignment="Bottom" Width="125" Click="Btn22_Click" Margin="0,0,0,15"/>
                 <Button x:Name="Btn25" Content="BACK" HorizontalAlignment="Center" Height="60" VerticalAlignment="Center" Width="125" Grid.Column="3" Click="Btn25_Click"/>
                 <Button x:Name="Btn24" Content="DELETE" HorizontalAlignment="Center" Height="60" VerticalAlignment="Center" Width="125" Grid.Column="2" Click="Btn24_Click"/>
                 <Button x:Name="Btn23" Content="SAVE" HorizontalAlignment="Center" Height="60" VerticalAlignment="Center" Width="126" Grid.Column="1" Click="Btn23_Click"/>

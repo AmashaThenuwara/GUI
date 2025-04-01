@@ -56,6 +56,7 @@ namespace Pharmacy_Management_System_Coursework
 
                         command.ExecuteNonQuery();
                         MessageBox.Show("Prescription saved successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                        LoadPrescriptionsData();
                     }
                 }
             }

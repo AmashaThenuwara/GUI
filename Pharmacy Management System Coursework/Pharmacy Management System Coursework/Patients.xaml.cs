@@ -54,6 +54,7 @@ namespace Pharmacy_Management_System_Coursework
 
                         command.ExecuteNonQuery();
                         MessageBox.Show("Patients saved successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                        LoadPatientData();
                     }
                 }
             }
